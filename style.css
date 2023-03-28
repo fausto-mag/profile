@@ -1,0 +1,62 @@
+.container {
+  margin: 10px, auto; /* Définit automatiquement les marges à gauche/droite */
+  background-color: #AD8E70;
+}
+
+@media (max-width: 640px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container #profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
+body {
+  font-family: space grotesk;
+  background-color: #AD8E70;
+  color: #3C2A21;
+  padding: 25px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: arial black;
+  color: #243763
+}
+
+.links {
+  display: inline;
+}
+
+#link {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FF6E31;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #AD8E70;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
